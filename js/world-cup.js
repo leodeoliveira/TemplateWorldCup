@@ -1,9 +1,6 @@
 $(document).ready(function(){
 	
-	$("#grupoB").hide();
-	
 	$("nav ul li a").on('click', function(){
-		
 		var divId = $('li.active').children().attr('href');
 		
 		$(divId).css('display', 'none');
@@ -15,7 +12,5 @@ $(document).ready(function(){
 
 		$(divId).css('display', 'block');
 		
-		
 	});
-
 });
